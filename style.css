@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100%;
-}
+}/*-------------------------------------------------------------------------*/
 main{
     display: flex;
     flex-direction: column;
@@ -24,7 +24,6 @@ footer{
     background-color: rgb(185, 109, 255);
     border: .5px solid black;
     text-align: center;
-
 }/*-------------------------------------------------------------------------*/
 .header{
     min-height: 10vh;
@@ -36,13 +35,13 @@ footer{
     background-color: aquamarine;
     border: .5px solid black;
     box-sizing: content-box;
-}
+}/*-------------------------------------------------------------------------*/
 .boxa{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-}
+}/*-------------------------------------------------------------------------*/
 .logo{
     width: 10%;
     height: 10vh;
@@ -55,7 +54,6 @@ footer{
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    
 }/* ------------------------------------------------------------------------- */
 .navbar a{
     display: flex;
@@ -211,55 +209,55 @@ caption{
     gap: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
-}
+}/*-------------------------------------------------------------------------*/
 .boxl{
     width: 50%;
     display: flex;
     justify-content: center;
-}
+}/*-------------------------------------------------------------------------*/
 .boxr{
     width: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
     box-sizing: content-box;
-}
+}/*-------------------------------------------------------------------------*/
 .maps{
     width: 50vw;
     height: 50vh;
     margin-left: 5%;
     margin-top: 2rem;
-}
+}/*-------------------------------------------------------------------------*/
 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-}
+}/*-------------------------------------------------------------------------*/
 .label{
     display: flex;
     flex-direction: column;
-}
+}/*-------------------------------------------------------------------------*/
 .check{
     display: flex;
     flex-direction: row-reverse;
     gap: 1rem;
-}
+}/*-------------------------------------------------------------------------*/
 fieldset{
     background-color: rgb(201, 31, 192);
-}
+}/*-------------------------------------------------------------------------*/
 .main_about{
     width: 100%;
     display: flex;
     flex-direction: column;
-}
+}/*-------------------------------------------------------------------------*/
 .box_about{
     width: 100%;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
-}
+}/*-------------------------------------------------------------------------*/
 @media screen and (min-width: 769px  ) {
     .texto{
         width: 35vw;
@@ -267,21 +265,19 @@ fieldset{
     td, th{
         width: 45%;
     }
-}
+}/*-------------------------------------------------------------------------*/
 @media screen and (max-height: 980px  ){
     .imagenc{
         width: 80%;
     }
-}
+}/*-------------------------------------------------------------------------*/
 @media screen and (max-width: 768px  ){
     .content{
         flex-direction: column;
-        margin-top: 20px;
-        
+        margin-top: 20px;   
     }
     .boxl{
-        width: 100%;
-        
+        width: 100%;       
     }
     .boxr{
         width: 100%;
@@ -290,4 +286,4 @@ fieldset{
         width: 80%;
     }
 
-}
+}/*-------------------------------------------------------------------------*/
