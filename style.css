@@ -1,0 +1,183 @@
+*{
+    /*Normalizar Primero*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+header{
+    min-height: 15vh;
+    font-size: 2em;
+    background-color: aquamarine;
+    border: .5px solid black;
+    
+}
+
+.logo{
+    width: 150px;
+    object-fit: contain;
+    position: fixed;
+    right: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+.navbar a{
+    margin: 20px 10px; 
+    padding: 15px;
+    border-radius: 40px;
+    background-color: pink;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+main{
+    min-height: 70vh;
+    background-color: blue;
+    border: .5px solid black;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.banner{
+    width: 100vw;
+    height: 200px;
+    object-fit: cover;
+    top: 0vh;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+    width: 35vw;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(233, 98, 120);
+    font-size: 1.5em;
+    border-radius: 40px;
+}
+.texto1{
+    width: 35vw;
+    padding: 40px;
+    background-color: rgb(233, 98, 120);
+    font-size: 1.5em;
+    border-radius: 40px;
+    margin: 30px;
+}
+.imagen1{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.imagena{
+    height: 160px;
+    width: 160px;
+    margin: 15px;
+    border: 2px solid red;
+}
+.imagencaja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textocaja{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.Contenedor{
+    max-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer{
+    min-height: 15vh;
+background-color: rgb(185, 109, 255);
+border: .5px solid black;
+}
+.imagenc{
+    width: 40vw;
+    height: 300px;
+}
+.box3{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.box4{
+    width: 100vw;
+    height: 23vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5em;
+}
+.footer{
+    text-align: center;
+}
+.imagen4{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+.lista1{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.li{
+    width: 500px;
+}
+table, th, td, tr {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+}
+.layout{
+
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+th{
+    background-color: rgb(214, 27, 205);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 20px;
+    width: 300px;
+}
+td{
+    background-color: rgb(153, 77, 96);
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px;
+    width: 300px;
+}
+caption{
+    caption-side: bottom;
+    text-align: left;
+}
