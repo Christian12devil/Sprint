@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./sources/icon.png" type="image/x-icon" />
+    <title>Raffle</title>
+</head>
+<body>
+    <header>
+        <!--Encabezado pagina principal -->
+      <div class="header">
+        <nav class="navbar">
+          <a href="./index.html">Inicio</a>
+          <a href="./aboutUs.html">AboutUs</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./information.html">Information</a>
+          <a href="./benefitsTips.html">Benefits-Tips</a>
+          <a href="./raffle.html">Raffle</a>
+        </nav>
+        <img class="logo" src="./sources/logo.png" alt="Logo" />
+        </div>
+    </header>
+
+    <main>
+        <h1>Raffle</h1>
+        <h2>You can collaborate to hold an exhibition event and participate in a raffle to win an easel</h2>
+        <div class="content">
+            <div class="boxl">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7865.993947458384!2d-118.4967459964112!3d34.011971512819386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4d74d5ea79b%3A0xcd9a111aced18f4d!2sMuelle%20de%20Santa%20M%C3%B3nica!5e0!3m2!1ses-419!2smx!4v1718384917525!5m2!1ses-419!2smx" width="600" height="450" class="maps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="boxr">
+                <form action="./sources/show_data.html" method="get">
+                    <fieldset>
+                        <label class="label">
+                            Name
+                           <input type="text" name="Name" placeholder="Your Name" required> 
+                        </label>
+            
+                        <label class="label">
+                            Last Name
+                            <input type="text" name="Last name" placeholder="Your Last name" required>
+                        </label>
+    
+                        <label class="label">
+                            Choose Meet or Zoom
+                            <select name="select">
+                                <option value="Meet">Meet</option>
+                                <option value="Zoom">Zoom</option>
+                            </select>
+                        </label>
+    
+                        <label class="label">
+                            Choose Date
+                            <input type="date" name="date" id="" value="2024-03-03">
+                        </label>
+    
+                        <label class="label">
+                            Cash
+                            <input type="radio" name="radio" id="" value="Cash">
+                        </label>
+            
+                        <label class="label">
+                            Credid card
+                            <input type="radio" name="radio" id="" value="Credid">
+                        </label>
+            
+                        <label class="label">
+                            Debit card
+                            <input type="radio" name="radio" id="" value="Debit">
+                        </label>
+    
+                        <label class="label">
+                            Message (optional)
+                            <textarea name="textarea" cols="20" rows="5" placeholder="Write a message" id=""></textarea>
+                        </label>
+    
+                        <label class="check">
+                            <button>Send</button>
+                            i accept terms and conditions...
+                            <input type="checkbox" name="confirm" required value="confirm">
+                        </label>
+                    </fieldset>
+                    
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <!--Pie de pagina con datos del creador-->
+        <p>Created by: Christian Zamora</p>
+    </footer>
+    
+</body>
+</html>
