@@ -3,51 +3,71 @@
     padding: 0px;
     box-sizing: border-box;   
 }/*-------------------------------------------------------------------------*/
-header{
-    min-height: 10vh;
-    font-size: 2em;
-    background-color: aquamarine;
-    border: .5px solid black;    
-}/*-------------------------------------------------------------------------*/
+.layout1{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 main{
+    display: flex;
+    flex-direction: column;
     min-height: 80vh;
+    width: 100%;
     background-color: blue;
     border: .5px solid black;
 }/*-------------------------------------------------------------------------*/
 footer{
+    display: flex;
+    flex-direction: column;
     min-height: 10vh;
+    width: 100%;
     background-color: rgb(185, 109, 255);
     border: .5px solid black;
     text-align: center;
 
 }/*-------------------------------------------------------------------------*/
 .header{
-    width: 100vw;
-    height: 10vh;
+    min-height: 10vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 2em;
+    background-color: aquamarine;
+    border: .5px solid black;
+    box-sizing: content-box;
+}
+.boxa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .logo{
-    width: 10vw;
+    width: 10%;
     height: 10vh;
     object-fit: contain;
     display: flex;
     align-items: end;
 }/*-------------------------------------------------------------------------*/
 .navbar{
+    width: 100%;
     display: flex;
-    justify-content: start;
     align-content: center;
-}/*-------------------------------------------------------------------------*/
+    flex-wrap: wrap;
+    
+}/* ------------------------------------------------------------------------- */
 .navbar a{
-    margin: 20px 10px; 
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    height: 50%;
+    padding: 1%;
     border-radius: 40px;
     background-color: pink;
     border: 2px solid red;
     cursor: pointer;
-    font-size: 16px;
+    font-size: .5em;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }/*-------------------------------------------------------------------------*/
 h1{
@@ -62,16 +82,16 @@ h2{
     width: 100vw;
     height: 200px;
     object-fit: cover;
-    top: 0vh;
 }/*-------------------------------------------------------------------------*/
-.box1{
+.box1{ 
+    width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }/*-------------------------------------------------------------------------*/
 .texto{
-    width: 35vw;
+    width: 80%;
     padding: 30px;
     margin: 30px;
     background-color: rgb(233, 98, 120);
@@ -79,8 +99,8 @@ h2{
     border-radius: 40px;
 }/*-------------------------------------------------------------------------*/
 .texto1{
-    width: 35vw;
-    padding: 40px;
+    width: 50vw;
+    padding: 20px;
     background-color: rgb(233, 98, 120);
     font-size: 1.5em;
     border-radius: 40px;
@@ -107,15 +127,16 @@ h2{
     flex-direction: column;
     justify-content: space-between;
 }/*-------------------------------------------------------------------------*/
-.Contenedor{
-    max-height: 70vh;
+.contenedor{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }/*-------------------------------------------------------------------------*/
 .imagenc{
-    width: 40vw;
+    width: 50%;
     height: 300px;
+    object-fit: contain;
 }/*-------------------------------------------------------------------------*/
 .box3{
     width: 100vw;
@@ -127,7 +148,8 @@ h2{
 }/*-------------------------------------------------------------------------*/
 .box4{
     width: 100vw;
-    height: 23vh;
+    height: 25vh;
+    gap: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -145,10 +167,11 @@ h2{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 1.5em;
 }/*-------------------------------------------------------------------------*/
 .li{
-    width: 500px;
+    width: 250px;
 }/*-------------------------------------------------------------------------*/
 table, th, td, tr {
     font-family: Arial, Helvetica, sans-serif;
@@ -156,7 +179,7 @@ table, th, td, tr {
 }/*-------------------------------------------------------------------------*/
 .layout{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,16 +187,16 @@ table, th, td, tr {
 th{
     background-color: rgb(214, 27, 205);
     font-weight: bold;
-    font-size: 1.5em;
-    padding: 20px;
-    width: 300px;
+    font-size: 1em;
+    padding: 10px;
+    width: 30%;
 }/*-------------------------------------------------------------------------*/
 td{
     background-color: rgb(153, 77, 96);
     font-weight: bold;
     font-size: 1em;
     padding: 15px;
-    width: 300px;
+    width: 30%;
 }/*-------------------------------------------------------------------------*/
 caption{
     caption-side: bottom;
@@ -181,23 +204,30 @@ caption{
 }/*-------------------------------------------------------------------------*/
 .content{
     width: 100vw;
-    height: 60vh;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .boxl{
-    width: 100vh;
-    height: 60vh;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
 .boxr{
-    width: 100vh;
-    height: 60vh;
+    width: 50%;
     display: flex;
     justify-content: center;
+    align-content: center;
+    box-sizing: content-box;
 }
 .maps{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 5%;
     margin-top: 2rem;
 }
 form{
@@ -217,4 +247,47 @@ form{
 }
 fieldset{
     background-color: rgb(201, 31, 192);
+}
+.main_about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box_about{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+@media screen and (min-width: 769px  ) {
+    .texto{
+        width: 35vw;
+    }
+    td, th{
+        width: 45%;
+    }
+}
+@media screen and (max-height: 980px  ){
+    .imagenc{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px  ){
+    .content{
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+    .boxl{
+        width: 100%;
+        
+    }
+    .boxr{
+        width: 100%;
+    }
+    .maps{
+        width: 80%;
+    }
+
 }
